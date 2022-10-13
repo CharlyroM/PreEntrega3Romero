@@ -1,61 +1,81 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/menu.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <meta name="viewport" >
     <title>MICENTER</title>
     <link rel="stylesheet" href="boostrap/bootstrap-5.2.1-dist/css/bootstrap.min.css">
 </head>
 <body>
 
 <!--    header   -->
-
-    <header>
-        <div class="menu ">
-            <h1 class="titulo fs-3">MICENTER</h1>
-        <nav class="">
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="servicios.html">Servicios</a></li>
-                <li><a href="proyectos.html">Proyectos</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+<nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand fs-2" href="#">MICENTER</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-4 px-4">
+            <li class="nav-item mx-2 px-2">
+            <a class="nav-link active " aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item mx-2 px-2">
+            <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
+            </li>
+        
+            <li class="nav-item mx-2 px-2">
+            <a class="nav-link active" aria-current="page" href="servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="proyectos.html">Proyectos</a>
+            </li>
+            <li class="nav-item mx-2 px-2">
+            <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+            </li>
+        
+        
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
-        </nav>
+        </li>
+        <form class="d-flex" role="search">
+        </form>
         </div>
-    </header>
-    <div>
-        <picture >
-            <img class="picture" src="css/meio.jpeg" alt="">
-        </picture>
-        </div>
+    </div>
+    </nav>
+
+<!-- imagen -->
+
+    <div class="d-flex p-2  justify-content-center">
+    <img src="imagenes/meio.jpeg" class="img-fluid" width="100%" alt="...">
+</div>
 <!-- texto 1 -->
             
     <section class="seccion1 ">
             <article class="">
-                <p id="parrafo-micenter" class=""> En MICENTER
+                <p id="parrafo-micenter" class="w-75 fs-4 pt-3 container text-center"> En MICENTER
                 logramos conjugar dos pilares importantes al momento de la concreción de un proyecto: calidad y <br> confianza. Combinando experiencia y conocimientos, obtenemos proyectos de calidad constructiva y de diseño, siempre <br>considerando la opinión del cliente como primordial.<br>
                 Con una atención personalizada desde el primer momento, desde nuestro equipo ofrecemos cumplir y contemplar todas sus<br>expectativas. </p>
             </article>
     </section> 
-                    <div class="ubicacion-div">
-                        <h3 class="p-5">DONDE NOS ENCONTRAMOS?<BR><br><br><span class="text-muted">Nos pueden encontrar en la calle julian <br>Alvarez 37/001,MVD,UY</span></h3>
-                            <br><br><br><br>
-                            <span class="border-start border-2"></span>
-                            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3272.278251895118!2d-56.177018368114645!3d-34.89946608097128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2suy!4v1661718104627!5m2!1ses-419!2suy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-            
-    
-
+    <!-- ubicacion-->
+    <div class="pt-3 w-75 fs-5 container text-center">
+        <h3 class="">DONDE NOS ENCONTRAMOS?<BR><br><br><span class="text-muted">Nos pueden encontrar en la calle julian <br>Alvarez 37/001,MVD,UY</span></h3>
+            <br><br><br><br>
+    </div>
+    <div> 
+        
+        <iframe class="mapa d-flex container justify-content-center" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3272.278251895118!2d-56.177018368114645!3d-34.89946608097128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2suy!4v1661718104627!5m2!1ses-419!2suy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
     <!-- servicios -->
     <div class="d-flex justify-content-center  border-bottom text-muted pt-5">
     <div>
-        <div class="fs-4 text-muted ">NUESTROS SERVICIOS</div>
+        <div class="fs-3 text-muted ">NUESTROS SERVICIOS</div>
     </div>
     </div>
 
@@ -63,10 +83,10 @@
             <div class="row row-cols-1 row-cols-md-3 g-4 container">
                 <div class="col">
                     <div class="card h-100">
-                    <img src="imagenes p-c/nueva-casa-construccion-obra_293060-52.jpg" class="card-img-top" alt="...">
+                    <img src="imagenes p-c/asesoramiento.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">ARQUITECTOS E INTGENIEROS</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text">contamos con un equipo de arquitectos e ingenieros que personalizaran cada proyecto. </p>
                         <a href="contacto.html" class="btn btn-dark justify-content-center d-flex  ">contacto</a>
                     </div>
                     <div class="card-footer">
@@ -76,10 +96,10 @@
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                    <img src="imagenes p-c/nueva-casa-construccion-obra_293060-52.jpg" class="card-img-top" alt="...">
+                    <img src="imagenes p-c/pexels-mumu-lin-11836086.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">INFRAESTRUCTURA</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text">Variedad de infraestuctura lo suficintemente capaz para concretar cualquier pedido.</p>
                         <a href="contacto.html" class="btn btn-dark justify-content-center d-flex ">contacto</a>
                     </div>
                     <div class="card-footer">
@@ -89,11 +109,12 @@
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                    <img src="imagenes p-c/nueva-casa-construccion-obra_293060-52.jpg" class="card-img-top" alt="...">
+                    <img src="imagenes p-c/pexels-bidvine-1249611.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">MANO DE OBRA</h5>
-                        <p class="card-text">Thistent. This cual height action.</p>
-                        <a href="contacto.html" class="btn btn-dark justify-content-center d-flex ">contacto</a>
+                        <p class="card-text">Exelente mano de obra calificada atenta al detalle.</p>
+                        <br>
+                        <a href="contacto.html"  class="btn btn-dark justify-content-center d-flex ">contacto</a>
                     </div>
                     <div class="card-footer">
                         <small class="text-muted">Last updated 3 mins ago</small>
@@ -117,8 +138,8 @@
         </ul>
         <p class="text-center text-muted">&copy; 2022 Company, Inc</p>
         </footer>
-
-    <script src="boostrap/bootstrap-5.2.1-dist/js/bootstrap.min.js"></script>
-
+    
+    
+        <script src="boostrap/bootstrap-5.2.1-dist/js/bootstrap.min.js"></script>
 </body>
-</html>
+ </html> 

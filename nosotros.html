@@ -2,30 +2,53 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/menu.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/menu.css">
-    <link rel="stylesheet" href="">
     <link rel="stylesheet" href="boostrap/bootstrap-5.2.1-dist/css/bootstrap.min.css">
 
     <title>nosotros</title>
 </head>
 <body>
-    <header>
-        <div class="menu ">
-            <h1 class="titulo fs-3">MICENTER</h1>
-        <nav class="">
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="servicios.html">Servicios</a></li>
-                <li><a href="proyectos.html">Proyectos</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-2" href="#">MICENTER</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-4 px-4">
+              <li class="nav-item mx-2 px-2">
+                <a class="nav-link active " aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item mx-2 px-2">
+                <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
+              </li>
+            
+              <li class="nav-item mx-2 px-2">
+                <a class="nav-link active" aria-current="page" href="servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="proyectos.html">Proyectos</a>
+              </li>
+              <li class="nav-item mx-2 px-2">
+                <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+              </li>
+            
+             
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </li>
+            <form class="d-flex" role="search">
+            </form>
+          </div>
         </div>
-    </header>
+      </nav>
+    
 
     <div class="card text-bg-dark container-md">
     <img src="imagenes p-c/Empresa_familiar1.jpg" class="card-img" alt="edificio en construccion">
